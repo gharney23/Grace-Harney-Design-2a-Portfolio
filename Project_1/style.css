@@ -1,0 +1,79 @@
+.links
+    {position: absolute;
+    height: 70vh;
+    width: 40vh;
+    top: 30%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:left;
+    font-family: 'Bungee', cursive;
+    font-size: 14pt;
+}
+a {color:yellow;
+    text-decoration: none;}
+
+.header
+    {
+        top: 15%;
+        left: 4%;
+color: rgb(255, 149, 79);
+font-size: 20pt;
+font-family: 'hwt-mardell', sans-serif;
+font-weight: 400;
+font-style: normal;
+position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;}
+
+    #box3 {font-size: 40pt;
+        font-family: 'hwt-mardell', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(201, 192, 255);
+        position: absolute;
+            top: 9%;
+            left: 4%;
+            display: flex;
+            flex-direction: row;
+            align-items:flex-start;}
+
+body {background-color: black;}
+.container2 
+    {position: relative;
+    height: 2600vh;
+    width: 1000vh;
+    top: .7%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    overflow: hidden;
+    animation-name: scroll;
+    animation-duration: 100s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;}
+img {height: 80vh;
+    width: 80vh;}
+@keyframes scroll {
+        0% {
+            transform: translate(0px, 0px);
+        }
+        100% {
+            transform: translate(0px, -20000px);
+        }
+    }
+@keyframes scrollreverse {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+            transform: translate(0px, 19800px);
+        }}
+        
+.container2:hover {animation-play-state: paused;}
+body {overflow: hidden;}

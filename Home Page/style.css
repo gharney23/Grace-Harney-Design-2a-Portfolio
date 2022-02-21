@@ -1,0 +1,130 @@
+.container 
+    {position: relative;
+    height: 40vh;
+    width: 130vh;
+    top: 24%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-between;}
+.container1
+    {position: relative;
+    top: 6%;
+    left: 03%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;}
+a {font-size: 14pt;
+    font-family: "bungee";
+color: yellow;
+text-decoration: none;}
+h1 {font-size: 18pt;
+    font-family: "bungee";
+color: white;}
+body {background-color: black;}
+
+#box3 {font-size: 80pt;
+    font-family: 'hwt-mardell', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(201, 192, 255);
+    position: absolute;
+        top: 7.5%;
+        left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;}
+
+
+#box {display: flex;
+    flex-direction: row;
+width:1400px;
+height: 300px;
+align-items: center;
+left: 10vh;
+position: fixed;
+justify-content: space-between;
+top: 45vh;
+}
+#ABC {background-image: url(image1.jpg);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;}
+#evergreen {background-image: url(image2.jpg);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;}
+#BW {background-image: url(image3.jpg);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;}
+#maxims {background-image: url(image4.jpg);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;}
+
+#ABC:hover {opacity: 0;}
+#evergreen:hover {opacity: 0;}
+#BW:hover {opacity: 0;}
+#maxims:hover {opacity: 0;}
+
+#box2 {display: flex;
+    flex-direction: row;
+width:1400px;
+height: 300px;
+align-items: center;
+left: 10vh;
+position: fixed;
+justify-content: space-between;
+top: 45vh;
+}
+
+#square1 {display: flex;
+    background-color: white;
+    width: 300px;
+    height: 286px;
+    align-items: center;
+    justify-content: center;}
+#square2 {display: flex;
+    background-color: white;
+    width: 300px;
+    height: 286px;
+    align-items: center;
+    justify-content: center;}
+#square3 {display: flex;
+    background-color: white;
+    width: 300px;
+    height: 286px;
+    align-items: center;
+    justify-content: center;}
+#square4 {background-color: white;
+    width: 300px;
+    height: 286px;
+    align-items: center;
+    justify-content: center;
+display: flex;}
+
+h1 {display: flex;
+    font-size: 14pt;
+font-family: "bungee";
+color: black;
+align-items: center;
+    justify-content: center;}
